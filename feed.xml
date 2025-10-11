@@ -4,7 +4,13 @@
   <title>Riggs Autoposts</title>
   <link>https://4x4trailrunners.com/</link>
   <description>Automated feed from Riggs</description>
-  <lastBuildDate>Sat, 11 Oct 2025 15:45:11 -0700</lastBuildDate>
-  
+  <lastBuildDate>Sat, 11 Oct 2025 17:10:13 -0700</lastBuildDate>
+  <item>
+      <title>TEST RUN – Riggs System Validation 2</title>
+      <link>https://4x4trailrunners.com/</link>
+      <guid isPermaLink="false">1s3u77udo2u5mmgrf2incg5pjg</guid>
+      <pubDate>Sat, 11 Oct 2025 17:00:00 -0700</pubDate>
+      <description><![CDATA[TEST RUN – Riggs System Validation]]></description>
+    </item>
 </channel>
 </rss>
