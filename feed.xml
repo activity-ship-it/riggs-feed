@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-<channel>
-  <title>Riggs Autoposts</title>
-  <link>https://4x4trailrunners.com/</link>
-  <description>Automated feed from Riggs</description>
-  <lastBuildDate>Sat, 11 Oct 2025 18:15:10 -0700</lastBuildDate>
-  <item>
-      <title>TEST RUN – Riggs System Validation 3</title>
-      <link>https://4x4trailrunners.com"&gt;https://4x4trailrunners.com&lt;/a&gt;&lt;br&gt;deliverables:&lt;br&gt;</link>
+  <channel>
+    <title>Riggs Autoposts</title>
+    <link>https://4x4trailrunners.com/</link>
+    <description>Automated feed from Riggs</description>
+    <lastBuildDate>Sat, 11 Oct 2025 18:20:13 -0700</lastBuildDate>
+    <item>
+      <title>TEST RUN â€“ Riggs System Validation 3</title>
+      <link>https://4x4trailrunners.com/</link>
       <guid isPermaLink="false">38p3tgbhmmt6reuqclg7rroj7q</guid>
       <pubDate>Sat, 11 Oct 2025 19:00:00 -0700</pubDate>
-      <description><![CDATA[priority: high<br>goal: validate end-to-end automation<br>links:<br>  - <a href="https://4x4trailrunners.com">https://4x4trailrunners.com</a><br>deliverables:<br>  - generate RSS entry<br>reviewer: jeremy]]></description>
+      <description><![CDATA[priority: high<br>goal: validate end-to-end automation<br>links:<br>Â  - <a href="https://4x4trailrunners.com">https://4x4trailrunners.com</a><br>deliverables:<br>Â  - generate RSS entry<br>reviewer: jeremy]]></description>
     </item>
-</channel>
+  </channel>
 </rss>
