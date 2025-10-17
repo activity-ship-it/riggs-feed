@@ -1,19 +1,18 @@
-
-  <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Fri, 17 Oct 2025 11:30:16 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 12:10:00 -0700</lastBuildDate>
 
     <item>
-      <title>Test Post #1 – Riggs → Publer Verification</title>
+      <title>Test Post #1 - Riggs to Publer Verification</title>
       <link>https://4x4trailrunners.com/</link>
       <description>This is a test article generated to verify Publer auto-post automation.</description>
       <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
+      <guid>test-post-1</guid>
     </item>
 
   </channel>
 </rss>
-
