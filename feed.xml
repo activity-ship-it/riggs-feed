@@ -1,5 +1,6 @@
 
-  <rss version="2.0">
+  <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
   <channel>
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
@@ -16,5 +17,3 @@
   </channel>
 </rss>
 
-</channel>
-</rss>
