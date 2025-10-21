@@ -43,9 +43,18 @@ jobs:
             echo "GUID=${{ github.event.client_payload.guid }}" >> $GITHUB_OUTPUT
           fi
 
+           - name: Show repo tree (debug)
+        run: |
+          echo "PWD=$(pwd)"
+          git rev-parse --show-toplevel
+          ls -la
+          echo "--- scripts dir ---"
+          ls -la scripts || true
+
       - name: Update feed.xml
         run: |
-          python scripts/add_item.py \
+          python -V
+          python ./scripts/add_item.py \
             "${{ steps.prep.outputs.TITLE }}" \
             "${{ steps.prep.outputs.LINK }}" \
             "${{ steps.prep.outputs.DESC }}" \
@@ -62,3 +71,4 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
