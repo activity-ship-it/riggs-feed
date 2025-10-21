@@ -4,7 +4,14 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Tue, 21 Oct 2025 12:18:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 13:00:37 +0000</lastBuildDate>
+    <item>
+      <title>Auto Test – Publer Publish Check</title>
+      <link>https://4x4trailrunners.com/</link>
+      <description>Testing full automation from Riggs to Publer to social.</description>
+      <pubDate>Tue, 21 Oct 2025 13:00:37 +0000</pubDate>
+      <guid>auto-test-publer-publish-check-https-4x4trailrunners-com--20251021130037</guid>
+    </item>
     <item>
       <title>Auto Test — Inline Script</title>
       <link>https://4x4trailrunners.com/</link>
