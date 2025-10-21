@@ -12,14 +12,13 @@ on:
       description:
         description: "Short description"
         required: true
-  repository_dispatch:
-    types: [riggs_new_post]
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # allows the action to push feed.xml changes
+      contents: write  # allow push
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,20 +27,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-           - name: Prepare inputs
-        id: prep
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "TITLE=${{ github.event.inputs.title }}" >> $GITHUB_OUTPUT
-            echo "LINK=${{ github.event.inputs.link }}" >> $GITHUB_OUTPUT
-            echo "DESC=${{ github.event.inputs.description }}" >> $GITHUB_OUTPUT
-          else
-            echo "TITLE=${{ github.event.client_payload.title }}" >> $GITHUB_OUTPUT
-            echo "LINK=${{ github.event.client_payload.link }}" >> $GITHUB_OUTPUT
-            echo "DESC=${{ github.event.client_payload.description }}" >> $GITHUB_OUTPUT
-            echo "GUID=${{ github.event.client_payload.guid }}" >> $GITHUB_OUTPUT
-          fi
 
       - name: Show repo tree (debug)
         run: |
@@ -55,10 +40,9 @@ jobs:
         run: |
           python -V
           python ./scripts/add_item.py \
-            "${{ steps.prep.outputs.TITLE }}" \
-            "${{ steps.prep.outputs.LINK }}" \
-            "${{ steps.prep.outputs.DESC }}" \
-            "${{ steps.prep.outputs.GUID }}"
+            "${{ github.event.inputs.title }}" \
+            "${{ github.event.inputs.link }}" \
+            "${{ github.event.inputs.description }}"
 
       - name: Commit & push if changed
         run: |
@@ -66,10 +50,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           if ! git diff --quiet; then
             git add feed.xml
-            git commit -m "Add item: ${{ steps.prep.outputs.TITLE }}"
+            git commit -m "Add item: ${{ github.event.inputs.title }}"
             git push
           else
             echo "No changes to commit."
           fi
-
-
