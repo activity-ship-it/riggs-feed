@@ -29,7 +29,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Prepare inputs
+           - name: Prepare inputs
         id: prep
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -43,7 +43,7 @@ jobs:
             echo "GUID=${{ github.event.client_payload.guid }}" >> $GITHUB_OUTPUT
           fi
 
-           - name: Show repo tree (debug)
+      - name: Show repo tree (debug)
         run: |
           echo "PWD=$(pwd)"
           git rev-parse --show-toplevel
@@ -71,4 +71,5 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
 
