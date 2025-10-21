@@ -1,11 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <rss version="2.0">
   <channel>
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Fri, 17 Oct 2025 12:10:00 -0700</lastBuildDate>
-
+    <lastBuildDate>Tue, 21 Oct 2025 12:18:06 +0000</lastBuildDate>
+    <item>
+      <title>Auto Test — Inline Script</title>
+      <link>https://4x4trailrunners.com/</link>
+      <description>Inline workflow logic test.</description>
+      <pubDate>Tue, 21 Oct 2025 12:18:06 +0000</pubDate>
+      <guid>auto-test-inline-script-https-4x4trailrunners-com--20251021121806</guid>
+    </item>
     <item>
       <title>Test Post #1 - Riggs to Publer Verification</title>
       <link>https://4x4trailrunners.com/</link>
@@ -13,13 +19,12 @@
       <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
       <guid>test-post-1</guid>
     </item>
-<item>
-  <title>Test Post #2 – Auto Post Trigger</title>
-  <link>https://4x4trailrunners.com/</link>
-  <description>This post was added to test Publer’s live auto-post function.</description>
-  <pubDate>Sat, 18 Oct 2025 09:40:00 -0700</pubDate>
-  <guid>test-post-2</guid>
-</item>
-
+    <item>
+      <title>Test Post #2 – Auto Post Trigger</title>
+      <link>https://4x4trailrunners.com/</link>
+      <description>This post was added to test Publer’s live auto-post function.</description>
+      <pubDate>Sat, 18 Oct 2025 09:40:00 -0700</pubDate>
+      <guid>test-post-2</guid>
+    </item>
   </channel>
 </rss>
