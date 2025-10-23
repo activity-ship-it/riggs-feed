@@ -4,7 +4,14 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Tue, 21 Oct 2025 13:00:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 12:17:56 +0000</lastBuildDate>
+    <item>
+      <title>Calendar Bypass Test</title>
+      <link>https://4x4trailrunners.com/</link>
+      <description>Direct dispatch from Apps Script</description>
+      <pubDate>Thu, 23 Oct 2025 12:17:56 +0000</pubDate>
+      <guid>calendar-bypass-test-https-4x4trailrunners-com--20251023121756</guid>
+    </item>
     <item>
       <title>Auto Test – Publer Publish Check</title>
       <link>https://4x4trailrunners.com/</link>
