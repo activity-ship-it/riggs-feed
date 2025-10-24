@@ -36,9 +36,16 @@ def load_tree(path):
 def insert_item(channel, title, link, desc, guid=None, pubdate=None, max_items=50):
     if pubdate is None:
         pubdate = rfc2822_now()
-    if guid is None:
-        # simple, stable guid from title+link+timestamp
-        guid = re.sub(r"[^a-z0-9\-]+","-", (title + "-" + link).lower()) + "-" + datetime.datetime.utcnow().strftime("%Y%m%d%H%M%S")
+
+    # Use a stable GUID: prefer explicit guid, otherwise fall back to the link
+    if guid is None or not guid.strip():
+        guid = link
+
+    # De-dup: if an item with this GUID already exists, skip
+    existing_guids = {i.findtext("guid") for i in channel.findall("item")}
+    if guid in existing_guids:
+        # Optional: you could update the existing item's description/pubDate here instead
+        return
 
     # Build <item>
     item = ET.Element("item")
@@ -48,13 +55,24 @@ def insert_item(channel, title, link, desc, guid=None, pubdate=None, max_items=5
     ET.SubElement(item, "pubDate").text = pubdate
     ET.SubElement(item, "guid").text = guid
 
-    # Insert at top (after existing items, but we want newest first)
-    # Find first existing item to insert before; otherwise append
+    # Insert newest first
     items = channel.findall("item")
     if items:
         channel.insert(list(channel).index(items[0]), item)
     else:
         channel.append(item)
+
+    # Update lastBuildDate
+    lbd = channel.find("lastBuildDate")
+    if lbd is None:
+        lbd = ET.SubElement(channel, "lastBuildDate")
+    lbd.text = rfc2822_now()
+
+    # Trim old items
+    items = channel.findall("item")
+    for old in items[max_items:]:
+        channel.remove(old)
+
 
     # update lastBuildDate
     lbd = channel.find("lastBuildDate")
