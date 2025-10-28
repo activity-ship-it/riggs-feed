@@ -4,7 +4,14 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Tue, 28 Oct 2025 00:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 11:47:45 +0000</lastBuildDate>
+    <item>
+      <title>Calendar Bypass Test #8</title>
+      <link>https://4x4trailrunners.com/trails/&lt;new-slug&gt;/</link>
+      <description>final dupe check</description>
+      <pubDate>Tue, 28 Oct 2025 11:47:45 +0000</pubDate>
+      <guid isPermaLink="true">https://4x4trailrunners.com/trails/&lt;new-slug&gt;/</guid>
+    </item>
     <item>
       <title>Calendar Bypass Test #7</title>
       <link>https://4x4trailrunners.com/morrison-trail-east-of-yellowstone-conquer-wyomings-wild-4x4-shelf-road/</link>
