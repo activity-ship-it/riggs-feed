@@ -4,7 +4,14 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Tue, 28 Oct 2025 11:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 02:14:21 +0000</lastBuildDate>
+    <item>
+      <title>Riggs Test2</title>
+      <link>https://4x4trailrunners.com/?p=6758</link>
+      <description>Testing full Riggs sequence.</description>
+      <pubDate>Tue, 04 Nov 2025 02:14:21 +0000</pubDate>
+      <guid>riggs-test2-https-4x4trailrunners-com-p-6758-20251104021421</guid>
+    </item>
     <item>
       <title>Calendar Bypass Test #8</title>
       <link>https://4x4trailrunners.com/trails/&lt;new-slug&gt;/</link>
