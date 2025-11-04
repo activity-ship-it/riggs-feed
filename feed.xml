@@ -4,7 +4,14 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Tue, 04 Nov 2025 02:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 13:17:29 +0000</lastBuildDate>
+    <item>
+      <title>Riggs Baseline Publish</title>
+      <link>https://4x4trailrunners.com/?p=6760</link>
+      <description>Baseline publish test via calendar JSON.</description>
+      <pubDate>Tue, 04 Nov 2025 13:17:29 +0000</pubDate>
+      <guid>riggs-baseline-publish-https-4x4trailrunners-com-p-6760-20251104131729</guid>
+    </item>
     <item>
       <title>Riggs Test2</title>
       <link>https://4x4trailrunners.com/?p=6758</link>
