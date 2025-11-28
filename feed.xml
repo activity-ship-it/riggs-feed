@@ -4,7 +4,96 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Fri, 28 Nov 2025 16:39:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 16:44:25 +0000</lastBuildDate>
+    <item>
+      <title>Tin Cup Pass Test4</title>
+      <link>https://4x4trailrunners.com/tin-cup-pass-test4-2/</link>
+      <description>{
+  "title": "Tin Cup Pass Test4",
+  "category": "trail-guide",
+  "description": "Tin Cup Pass, Colorado&lt;br&gt;&lt;p dir=\"ltr\"&gt;Tin cup Pass is a historic, high-elevation mountain pass in Colorado, popular for high-clearance 4x4 off-roading, ATV/UTV riding, and hiking. It crosses the Continental Divide at 12,154 feet and connects the historic ghost town of St. Elmo to the small residential community of Tincup&lt;/p&gt;&lt;p dir=\"ltr\"&gt;&lt;br&gt;&lt;/p&gt;Trail difficulty: moderate",
+  "assets": {
+    "features": [],
+    "trail_context": "",
+    "keywords": []
+  },
+  "status": "syndicated",
+  "trailbots": {
+    "imagery": {
+      "images": [
+        {
+          "id": "hero-trail",
+          "prompt": "Can-Am Maverick X3 driving on Tin Cup Pass Test4, rocky off-road trail, scenic views, natural light, cinematic, 16:9",
+          "alt": "Can-Am Maverick X3 driving on Tin Cup Pass Test4 trail at sunset.",
+          "role": "featured",
+          "aspect": "16:9",
+          "subject": "trail-overview"
+        },
+        {
+          "id": "recovery-gear",
+          "prompt": "Close-up of off-road recovery gear laid out beside Can-Am Maverick X3: traction boards, soft shackles, recovery straps, gloves, tire repair kit, organized on the ground, 4x4 adventure style, 4:3",
+          "alt": "Off-road recovery gear laid out next to Can-Am Maverick X3 on the trail.",
+          "role": "inline",
+          "aspect": "4:3",
+          "subject": "recovery-kit"
+        },
+        {
+          "id": "comms-safety",
+          "prompt": "Driver inside Can-Am Maverick X3 stopped on Tin Cup Pass Test4, using a GMRS radio with helmet and harness visible, surrounding hills in the background, documentary style, 3:2",
+          "alt": "Can-Am Maverick X3 driver using a GMRS radio with safety gear on the trail.",
+          "role": "inline",
+          "aspect": "3:2",
+          "subject": "comms-safety"
+        }
+      ]
+    },
+    "social": {
+      "captions": [
+        "Exploring Tin Cup Pass Test4 with the Can-Am Maverick X3 — rugged rocks, stunning views, and unbeatable adventure vibes. Ready to hit the trail?",
+        "Packed and prepped with essential recovery gear beside the Can-Am Maverick X3, because every off-road adventure needs a backup plan.",
+        "Safety first on Tin Cup Pass Test4: our driver stays connected using GMRS radio, decked out with helmet and harness. Off-road smart, off-road safe!"
+      ],
+      "hashtag_packs": {
+        "offroad_adventure": [
+          "#TinCupPass",
+          "#CanAmMaverickX3",
+          "#OffroadLife",
+          "#TrailAdventure",
+          "#RockyTrails",
+          "#RecoveryGear",
+          "#SafetyFirst",
+          "#GMRSRadio",
+          "#4x4Fun",
+          "#TrailBots"
+        ],
+        "gear_and_safety": [
+          "#RecoveryGear",
+          "#OffroadSafety",
+          "#TrailPrep",
+          "#GMRSRadio",
+          "#HelmetOn",
+          "#AdventureReady",
+          "#OffroadEssentials",
+          "#GearUp",
+          "#TrailLife",
+          "#SafeTravels"
+        ]
+      },
+      "meta": {
+        "title": "Can-Am Maverick X3 Conquers Tin Cup Pass Test4",
+        "description": "Experience the rugged beauty and thrill of Tin Cup Pass Test4 with the Can-Am Maverick X3. Featuring essential recovery gear and safety communications, this off-road adventure has it all."
+      }
+    }
+  },
+  "link": "https://4x4trailrunners.com/tin-cup-pass-test4/",
+  "captions": [
+    "Shakedown run on Tin Cup Pass Test4 with Can-Am Maverick X3.",
+    "Packing the right recovery kit makes Tin Cup Pass Test4 a lot more fun."
+  ]
+}</description>
+      <pubDate>Fri, 28 Nov 2025 16:44:25 +0000</pubDate>
+      <guid>tin-cup-pass-test4-https-4x4trailrunners-com-tin-cup-pass-test4-2--20251128164425</guid>
+    </item>
     <item>
       <title>Tin Cup Pass Test4</title>
       <link>https://4x4trailrunners.com/tin-cup-pass-test4/</link>
