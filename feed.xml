@@ -4,7 +4,60 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Sat, 29 Nov 2025 15:31:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 15:44:27 +0000</lastBuildDate>
+    <item>
+      <title>Beatty Narrows Trail Guide, Nevada</title>
+      <link>https://4x4trailrunners.com/beatty-narrows-trail-guide-nevada/</link>
+      <description>{
+  "title": "Beatty Narrows Trail Guide (Nevada)",
+  "category": "trail-guide",
+  "description": "Beatty Narrows is a popular off-road route located just outside Beatty, Nevada. This scenic desert trail cuts between volcanic rock walls and offers sweeping views of the Amargosa Valley. The terrain consists of compact dirt, gravel sections, shallow wash crossings, and mild rocky steps. It’s a great beginner-to-intermediate trail with plenty of photo opportunities and side routes to explore.
+
+Trail Rating: Moderate
+Route Type: Out-and-back
+Best Time to Visit: Fall through spring
+Nearby Landmark: Death Valley National Park
+Elevation: ~3,300–3,700 ft
+
+Recommended Vehicle: Can-Am Maverick X3 or any high-clearance 4x4/UTV.
+
+Key Highlights:
+– Narrow desert canyon scenery
+– Easy access from town
+– Smooth, flowing terrain suitable for beginners
+– Great testing ground for suspension, tires, recovery gear, and comms
+
+Affiliate Gear Mentions:
+– Recovery boards
+– Soft shackles
+– Tire repair kit
+– Portable air compressor
+– Midland GMRS radio
+– LED rock lights
+– First aid kit
+– Portable power bank
+",
+  "assets": {
+    "features": [
+      "Narrow canyon walls",
+      "Smooth desert terrain",
+      "Gravel and small rock steps",
+      "Side wash crossings",
+      "Wide valley views"
+    ],
+    "trail_context": "Beatty, Nevada desert canyon with volcanic rock formations, gravel terrain, shallow wash crossings, and clear line-of-sight trail sections.",
+    "keywords": [
+      "Beatty Narrows",
+      "Beatty Nevada trails",
+      "off-road trail Nevada",
+      "desert canyon trail",
+      "Can-Am Maverick X3 Nevada"
+    ]
+  }
+}</description>
+      <pubDate>Sat, 29 Nov 2025 15:44:27 +0000</pubDate>
+      <guid>beatty-narrows-trail-guide-nevada-https-4x4trailrunners-com-beatty-narrows-trail-guide-nevada--20251129154427</guid>
+    </item>
     <item>
       <title>Weekly Trail Guide test 1</title>
       <link>https://4x4trailrunners.com/weekly-trail-guide-test-1/</link>
