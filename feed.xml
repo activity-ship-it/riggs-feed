@@ -4,7 +4,16 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Tue, 02 Dec 2025 21:19:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 00:39:21 +0000</lastBuildDate>
+    <item>
+      <title>Echo Canyon Road Trail Guide (Test)2</title>
+      <link>https://4x4trailrunners.com/?p=6901</link>
+      <description>trail_name: "Echo Canyon Road"
+  region: "Death Valley"
+  state: "California"</description>
+      <pubDate>Wed, 03 Dec 2025 00:39:21 +0000</pubDate>
+      <guid>echo-canyon-road-trail-guide-test-2-https-4x4trailrunners-com-p-6901-20251203003921</guid>
+    </item>
     <item>
       <title>Echo Canyon Road Trail Guide (Death Valley)</title>
       <link>https://4x4trailrunners.com/?p=6898</link>
