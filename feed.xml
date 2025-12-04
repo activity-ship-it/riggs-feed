@@ -4,7 +4,14 @@
     <title>Riggs Autoposts</title>
     <link>https://4x4trailrunners.com/</link>
     <description>Automated feed from Riggs</description>
-    <lastBuildDate>Thu, 04 Dec 2025 00:36:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 00:54:46 +0000</lastBuildDate>
+    <item>
+      <title>SEO Test Trail – Do Not Publish</title>
+      <link>https://4x4trailrunners.com/seo-test-trail-do-not-publish/</link>
+      <description>SEO Test Trail – Do Not Publish</description>
+      <pubDate>Thu, 04 Dec 2025 00:54:46 +0000</pubDate>
+      <guid>seo-test-trail-do-not-publish-https-4x4trailrunners-com-seo-test-trail-do-not-publish--20251204005446</guid>
+    </item>
     <item>
       <title>Echo Canyon Trail Guide</title>
       <link>https://4x4trailrunners.com/echo-canyon-trail-guide-2/</link>
@@ -721,13 +728,6 @@ Trail Difficulty: Moderate</description>
       <description>This is a test article generated to verify Publer auto-post automation.</description>
       <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
       <guid>test-post-1</guid>
-    </item>
-    <item>
-      <title>Test Post #2 – Auto Post Trigger</title>
-      <link>https://4x4trailrunners.com/</link>
-      <description>This post was added to test Publer’s live auto-post function.</description>
-      <pubDate>Sat, 18 Oct 2025 09:40:00 -0700</pubDate>
-      <guid>test-post-2</guid>
     </item>
   </channel>
 </rss>
